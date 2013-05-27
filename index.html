@@ -1,0 +1,131 @@
+<html>
+<head>
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<div id="fb-root"></div>
+<script>
+
+window.fbAsyncInit = function() {
+        FB.init({
+          //appId: '224271307705794', //QA
+          appId: '224271307705794',    //PR
+          channelUrl : 'http://qa.grupow.com/it/adivinaquien/channel.html', // Channel file for x-domain comms
+          cookie: true,
+          xfbml: true,
+          oauth: true
+        });
+        FB.Event.subscribe('auth.login', function(response) {
+         login();
+        });
+        FB.Event.subscribe('auth.logout', function(response) {
+          
+        });
+       
+      };
+      (function() {
+        var e = document.createElement('script'); e.async = true;
+        e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';
+        document.getElementById('fb-root').appendChild(e);
+      }());
+
+</script>
+	<div id="full_container">
+		<div id="stage">
+			
+			<a href="#" id="login" class="control">Conectar con fb</a>
+			<a href="#" id="restart" class="control">Restart</a>
+			<h1 id="score" >0</h1>
+			<div id="main_container" elid="0">
+							<a id="main_front" class=" inactive main" href="#">
+								<div class="card_img"></div>
+								<div class="card_name">CARlOS SECA</div>
+							</a>
+							<a id="main_back" class=" active main" href="#">
+								<div class="card_img"></div>						
+							</a>
+					</div>
+			<div id="tablero">
+							
+						
+
+				<a id="el1" class="sharing male active card" href="#">
+					<div class="card_img"></div>
+					<div class="card_name">CARlOS SECA</div>
+				</a>
+				<a id="el2" class="sharing male active card" href="#">
+					<div class="card_img"></div>
+					<div class="card_name">CARlOS SECA</div>
+				</a>
+				<a id="el3" class="it male active card" href="#">
+					<div class="card_img"></div>
+					<div class="card_name">CARlOS SECA</div>
+				</a>
+				<a id="el4" class="it male active card" href="#">
+					<div class="card_img"></div>
+					<div class="card_name">CARlOS SECA</div>
+				</a>
+				<a id="el5" class="sharing male active card" href="#">
+					<div class="card_img"></div>
+					<div class="card_name">CARlOS SECA</div>
+				</a>
+				<a id="el6" class="it male active card" href="#">
+					<div class="card_img"></div>
+					<div class="card_name">CARlOS SECA</div>
+				</a>
+				<a id="el7" class="craft male active card" href="#">
+					<div class="card_img"></div>
+					<div class="card_name">CARlOS SECA</div>
+				</a>
+				<a id="el8" class="craft male active card" href="#">
+					<div class="card_img"></div>
+					<div class="card_name">CARlOS SECA</div>
+				</a>
+				<a id="el9" class="craft male active card" href="#">
+					<div class="card_img"></div>
+					<div class="card_name">CARlOS SECA</div>
+				</a>
+				<a id="el10" class="it male active card" href="#">
+					<div class="card_img"></div>
+					<div class="card_name">CARlOS SECA</div>
+				</a>
+				<a id="el11" class="sharing male active card" href="#">
+					<div class="card_img"></div>
+					<div class="card_name">CARlOS SECA</div>
+				</a>
+				<a id="el12" class="craft male active card" href="#">
+					<div class="card_img"></div>
+					<div class="card_name">CARlOS SECA</div>
+				</a>
+			</div>
+			
+		</div>
+		<div id="controls">
+			<div id="controls_grupow">
+				<a href="#" id="it" class="control">IT</a>
+				<a href="#" id="sharing" class="control">SHARING</a>
+				<a href="#" id="craft" class="control">CRAFT</a>
+				<a href="#" id="reset" class="control">RESET</a>
+			</div>
+			<div id="controls_fb">
+				<div id="controls_fb_header">
+					<a href="#" id="controls_fb_header_location" class="controls_fb_header active">Location</a>
+					<a href="#" id="controls_fb_header_hometown" class="controls_fb_header">HomeTown</a>
+					<a href="#" id="controls_fb_header_gender" class="controls_fb_header">Gender</a>
+					<a href="#" id="controls_fb_header_work" class="controls_fb_header">Work</a>
+					<a href="#" id="controls_fb_header_education" class="controls_fb_header">Education</a>
+				</div>
+				<div id="controls_fb_body">					
+					<div id="controls_location" class="active"></div>
+					<div id="controls_hometown"></div>
+					<div id="controls_gender"></div>
+					<div id="controls_work"></div>
+					<div id="controls_education"></div>
+				</div>
+			</div>
+		</div>		
+	</div>
+</body>
+</html>
