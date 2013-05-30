@@ -77,7 +77,7 @@ function load_fbfriends()
 		             	{
 		             		var found=false;
 		             		var cont=0;
-		             		var work_name=array_amigos[i].work[j].employer.name.replace(/ /g,"_").replace(/,/g,"-").replace(/&/g,"-").replace(/\./g,"_").replace(/\)/g,"_").replace(/\(/g,"_").replace(/'/g,"_");
+		             		var work_name="w_"+array_amigos[i].work[j].employer.name.replace(/ /g,"_").replace(/,/g,"-").replace(/&/g,"-").replace(/\./g,"_").replace(/\)/g,"_").replace(/\(/g,"_").replace(/'/g,"_");
 		             		while(!found && cont<array_works.length)
 		             		{
 		             			if(array_works[cont]==work_name)
@@ -106,7 +106,7 @@ function load_fbfriends()
 		             	{
 		             		var found=false;
 		             		var cont=0;
-		             		var education_name=array_amigos[i].education[j].school.name.replace(/ /g,"_").replace(/,/g,"-").replace(/&/g,"-").replace(/\./g,"_").replace(/\)/g,"_").replace(/\(/g,"_").replace(/'/g,"_");
+		             		var education_name="e_"+array_amigos[i].education[j].school.name.replace(/ /g,"_").replace(/,/g,"-").replace(/&/g,"-").replace(/\./g,"_").replace(/\)/g,"_").replace(/\(/g,"_").replace(/'/g,"_");
 		             		while(!found && cont<array_education.length)
 		             		{
 		             			if(array_education[cont]==education_name)
@@ -135,7 +135,7 @@ function load_fbfriends()
 		             		
 		             		var found=false;
 		             		var cont=0;
-		             		var location_name=array_amigos[i].location.name.replace(/ /g,"_").replace(/,/g,"-").replace(/&/g,"-").replace(/\./g,"_").replace(/\)/g,"_").replace(/\(/g,"_").replace(/'/g,"_");
+		             		var location_name="l_"+array_amigos[i].location.name.replace(/ /g,"_").replace(/,/g,"-").replace(/&/g,"-").replace(/\./g,"_").replace(/\)/g,"_").replace(/\(/g,"_").replace(/'/g,"_");
 		             		while(!found && cont<array_location.length)
 		             		{
 		             			if(array_location[cont]==location_name)
@@ -162,7 +162,7 @@ function load_fbfriends()
 		             	//{
 		             		var found=false;
 		             		var cont=0;
-		             		var hometown_name=array_amigos[i].hometown.name.replace(/ /g,"_").replace(/,/g,"-").replace(/&/g,"-").replace(/\./g,"_").replace(/\)/g,"_").replace(/\(/g,"_").replace(/'/g,"_");
+		             		var hometown_name="h_"+array_amigos[i].hometown.name.replace(/ /g,"_").replace(/,/g,"-").replace(/&/g,"-").replace(/\./g,"_").replace(/\)/g,"_").replace(/\(/g,"_").replace(/'/g,"_");
 		             		while(!found && cont<array_hometown.length)
 		             		{
 		             			if(array_hometown[cont]==hometown_name)
@@ -207,7 +207,7 @@ function load_fbfriends()
 	             {
 	             	for(var j=0;j<array_amigos[theone].education.length;j++)
 	             	{
-	             		var education_name=array_amigos[theone].education[j].school.name.replace(/ /g,"_").replace(/,/g,"-").replace(/&/g,"-").replace(/\./g,"_").replace(/\)/g,"_").replace(/\(/g,"_").replace(/'/g,"_")
+	             		var education_name="e_"+array_amigos[theone].education[j].school.name.replace(/ /g,"_").replace(/,/g,"-").replace(/&/g,"-").replace(/\./g,"_").replace(/\)/g,"_").replace(/\(/g,"_").replace(/'/g,"_")
 	             		$("#main_container").addClass(education_name);
 	             	}
 	             }
@@ -215,21 +215,21 @@ function load_fbfriends()
 	             {
 	             	for(var j=0;j<array_amigos[theone].work.length;j++)
 	             	{
-	             		var work_name=array_amigos[theone].work[j].employer.name.replace(/ /g,"_").replace(/,/g,"-").replace(/&/g,"-").replace(/\./g,"_").replace(/\)/g,"_").replace(/\(/g,"_").replace(/'/g,"_");
+	             		var work_name="w_"+array_amigos[theone].work[j].employer.name.replace(/ /g,"_").replace(/,/g,"-").replace(/&/g,"-").replace(/\./g,"_").replace(/\)/g,"_").replace(/\(/g,"_").replace(/'/g,"_");
 	             		$("#main_container").addClass(work_name);
 	             	}
 	             }
 	             if(array_amigos[theone].location!=null)
 	             {
 	             	
-	             		var location_name=array_amigos[theone].location.name.replace(/ /g,"_").replace(/,/g,"-").replace(/&/g,"-").replace(/\./g,"_").replace(/\)/g,"_").replace(/\(/g,"_").replace(/'/g,"_")
+	             		var location_name="l_"+array_amigos[theone].location.name.replace(/ /g,"_").replace(/,/g,"-").replace(/&/g,"-").replace(/\./g,"_").replace(/\)/g,"_").replace(/\(/g,"_").replace(/'/g,"_")
 	             		$("#main_container").addClass(location_name);
 	             	
 	             }
 	             if(array_amigos[theone].hometown!=null)
 	             {
 	             	
-	             		var hometown_name=array_amigos[theone].hometown.name.replace(/ /g,"_").replace(/,/g,"-").replace(/&/g,"-").replace(/\./g,"_").replace(/\)/g,"_").replace(/\(/g,"_").replace(/'/g,"_")
+	             		var hometown_name="h_"+array_amigos[theone].hometown.name.replace(/ /g,"_").replace(/,/g,"-").replace(/&/g,"-").replace(/\./g,"_").replace(/\)/g,"_").replace(/\(/g,"_").replace(/'/g,"_")
 	             		$("#main_container").addClass(hometown_name);
 	             	
 	             }
