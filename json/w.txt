@@ -1,0 +1,39 @@
+{
+	"ppl":
+	[
+		{"nombre":"abraham garcia","area":"sharing","gender":"male","hobbie":"runner","image":"abraham_garcia.jpg"},
+		{"nombre":"aldo cardenas","area":"thinking","gender":"male","hobbie":"fut","image":"aldo_cardenas.jpg"},
+		{"nombre":"alexander granados.jpg","area":"sharing","gender":"male","hobbie":"fut","image":"alexander_granados.jpg"},
+		{"nombre":"alexandro briones","area":"craft","gender":"male","hobbie":"fut","image":"alexandro_briones.jpg"},
+		{"nombre":"arturo albornoz","area":"thinking","gender":"male","hobbie":"coca_cola","image":"arturo_albornoz.jpg"},
+		{"nombre":"caleb guzman","area":"craft","gender":"male","hobbie":"fut","image":"caleb_guzman.jpg"},
+		{"nombre":"carlos davila","area":"sharing","gender":"male","hobbie":"health","image":"carlos_davila.jpg"},
+		{"nombre":"carlos seca","area":"sharing","gender":"male","hobbie":"basket","image":"carlos_seca.jpg"},
+		{"nombre":"edgar espero","area":"craft","gender":"male","hobbie":"music","image":"edgar_espero.jpg"},
+		{"nombre":"edgar ortiz","area":"craft","gender":"male","hobbie":"bartending","image":"edgar_ortiz.jpg"},
+		{"nombre":"elias tobias","area":"craft","gender":"male","hobbie":"music","image":"elias_tobias.jpg"},
+		{"nombre":"jesus barajas","area":"sharing","gender":"male","hobbie":"basket","image":"jesus_barajas.jpg"},
+		{"nombre":"jorge torres","area":"sharing","gender":"male","hobbie":"internet","image":"jorge_torres.jpg"},
+		{"nombre":"laura santos","area":"thinking","gender":"female","hobbie":"runner","image":"laura_delossantos.jpg"},
+		{"nombre":"luis uribe","area":"sharing","gender":"male","hobbie":"volley","image":"luis_uribe.jpg"},
+		{"nombre":"mario flores","area":"sharing","gender":"male","hobbie":"runner","image":"mario_flores.jpg"},
+		{"nombre":"mario sifuentes","area":"thinking","gender":"male","hobbie":"videogames","image":"mario_sifuentes.jpg"},
+		{"nombre":"martin cervantes","area":"thinking","gender":"male","hobbie":"crossfit","image":"martin_cervantes.jpg"},
+		{"nombre":"maru valencia","area":"craft","gender":"female","hobbie":"read","image":"maru_valencia.jpg"},
+		{"nombre":"nancy sosa","area":"thinking","gender":"female","hobbie":"kickboxing","image":"nancy_sosa.jpg"},
+		{"nombre":"pablo mercado","area":"craft","gender":"male","hobbie":"videogames","image":"pablo_mercado.jpg"},
+		{"nombre":"raul uranga","area":"sharing","gender":"male","hobbie":"fut","image":"raul_uranga.jpg"},
+		{"nombre":"rebeca ricoy","area":"sharing","gender":"female","hobbie":"read","image":"rebeca_ricoy.jpg"},
+		{"nombre":"roberto espero","area":"craft","gender":"male","hobbie":"fut","image":"roberto_espero.jpg"},
+		{"nombre":"roberto licea","area":"craft","gender":"male","hobbie":"runner","image":"roberto_licea.jpg"},
+		{"nombre":"rodrigo garcia","area":"sharing","gender":"male","hobbie":"read","image":"rodrigo_garcia.jpg"},
+		{"nombre":"ruben lara","area":"sharing","gender":"male","hobbie":"videogames","image":"ruben_lara.jpg"},
+		{"nombre":"sebastian mariscal","area":"craft","gender":"male","hobbie":"videogames","image":"sebastian_mariscal.jpg"},
+		{"nombre":"suemi garcia","area":"sharing","gender":"female","hobbie":"draw","image":"suemi_garcia.jpg"},
+		{"nombre":"xacaranda leon","area":"sharing","gender":"female","hobbie":"runner","image":"xacaranda_leon.jpg"}
+		
+		
+	]
+	
+
+}

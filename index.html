@@ -18,7 +18,7 @@ window.fbAsyncInit = function() {
           oauth: true
         });
         FB.Event.subscribe('auth.login', function(response) {
-         login();
+         //login();
         });
         FB.Event.subscribe('auth.logout', function(response) {
           
@@ -37,6 +37,7 @@ window.fbAsyncInit = function() {
 			
 			<a href="#" id="login" class="control">Conectar con fb</a>
 			<a href="#" id="restart" class="control">Restart</a>
+			<a href="#" id="restart_w" class="control">Restart</a>
 			<h1 id="score" >0</h1>
 			<div id="main_container" elid="0">
 							<a id="main_front" class=" inactive main" href="#">
@@ -48,9 +49,9 @@ window.fbAsyncInit = function() {
 							</a>
 					</div>
 			<div id="tablero">
-							
+				LOADING ........			
 						
-
+<!--
 				<a id="el1" class="sharing male active card" href="#">
 					<div class="card_img"></div>
 					<div class="card_name">CARlOS SECA</div>
@@ -99,15 +100,13 @@ window.fbAsyncInit = function() {
 					<div class="card_img"></div>
 					<div class="card_name">CARlOS SECA</div>
 				</a>
+			-->
 			</div>
 			
 		</div>
 		<div id="controls">
 			<div id="controls_grupow">
-				<a href="#" id="it" class="control">IT</a>
-				<a href="#" id="sharing" class="control">SHARING</a>
-				<a href="#" id="craft" class="control">CRAFT</a>
-				<a href="#" id="reset" class="control">RESET</a>
+				
 			</div>
 			<div id="controls_fb">
 				<div id="controls_fb_header">
